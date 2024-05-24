@@ -24,7 +24,7 @@ app.get('/submit',function(req,res){
 
 const {Pool,Client}= require('pg');
 
-const connectionString='postgressql://postgres:shiv868@localhost:5432/shiva'
+const connectionString='postgres://fieldmate_postgresql_user:v2KnGm85GROf0TKuKpFB1nrhri3C9F5V@dpg-cp60od2cn0vc73bmlkkg-a:5432/fieldmate_postgresql'
 
 
 const client= new Client({
